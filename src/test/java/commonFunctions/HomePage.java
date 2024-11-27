@@ -18,7 +18,7 @@ public class HomePage extends AppUtil
 	public void HomePg_RvnPg()
 	{
 		RevCal.click();
-		logger.log(LogStatus.PASS, "Click to Revenue-Calculator link is Successful");
+		logger.log(LogStatus.PASS, "Navigating from Home_Page to Revenue-Calculator page");
 	}
 
 }

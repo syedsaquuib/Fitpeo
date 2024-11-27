@@ -145,13 +145,13 @@ public class Revenue_CalculatorPage extends AppUtil
 		if(Act_data.equals(Exp_data))
 		{
 			logger.log(LogStatus.PASS,"Actual_value :: "+Act_data+"    "+"Expected_Value"+Exp_data+"  "+ "Validation PASS :: Expected is Equal to Actual");
-			Reporter.log("Runtime_Value :: "+Act_data+"    "+"Expected_Value"+Exp_data+"  "+"Expected value is Matching with Actual",true);
+			Reporter.log("Actual_value :: "+Act_data+"    "+"Expected_Value"+Exp_data+"  "+"Expected value is Matching with Actual",true);
 			return true;
 		}
 		else
 		{
 			logger.log(LogStatus.FAIL,"Actual_value :: "+Act_data+"    "+"Expected_Value"+Exp_data+"  "+ "Validation FAIL :: Expected is not equal to Actual");
-			Reporter.log("Runtime_Value :: "+Act_data+"    "+"Expected_Value"+Exp_data+"  "+"Expected value is not matching with Actual",true);
+			Reporter.log("Actual_value :: "+Act_data+"    "+"Expected_Value"+Exp_data+"  "+"Expected value is not matching with Actual",true);
 			return false;
 		}
 
